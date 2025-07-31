@@ -115,10 +115,6 @@ Each row represents a full MBP-10 snapshot. Fields include:
 Output accuracy can be verified using Python scripts.  
 The following graphs compare **official** vs **reconstructed** MBP data, showing strong overlap:
 
-- 📉 **Bid Price**
-- 📈 **Ask Price**
-- 📊 **Bid Size**
-- 📊 **Ask Size**
 
 ### 🔍 Visualization Graphs
 
