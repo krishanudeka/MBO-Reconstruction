@@ -154,3 +154,35 @@ jupyterlab>=3.0.0
 **Windows (MSVC):**
 ``bash
 cl /EHsc /std:c++17 main.cpp /Fe:main.exe
+
+## 🚀 Run the Executable
+
+``bash
+./main.exe mbo.csv mbp_output.csv
+# or on Linux/macOS:
+./main mbo.csv mbp_output.csv
+
+## 📌 Assumptions
+
+- Order IDs are unique and persistent.
+- `'M' (Modify)` = `'C' (Cancel)` + `'A' (Add)`
+- Rows with non-numeric price, size, or order_id are skipped.
+- `depth` column is unused and set to `"0"` in MBP output.
+
+---
+
+## 🏁 Conclusion
+
+This C++ implementation provides a **fast**, **robust**, and **accurate** method for reconstructing MBP-10 snapshots from real-time MBO event streams.
+
+- ✅ Crash-resilient  
+- ✅ Extensible architecture  
+- ✅ Standard-compliant output  
+
+Ideal for **research**, **trading infrastructure**, or **market data validation pipelines**.
+
+---
+
+## 👨‍💻 Author
+
+**Developed by:** Bedagya Bordoloi
