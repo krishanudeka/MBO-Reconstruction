@@ -25,7 +25,7 @@ MBO/
 └── mbp.csv     # Desired output file format (MBP-10)
 
 ---
-```yaml
+yaml
 
 ## 🚀 How to Run
 
@@ -37,17 +37,17 @@ To build manually via terminal:
 
 #### On Windows (MSVC):
 
-```bash
+bash
 cl /EHsc /std:c++17 main.cpp /Fe:main.exe
 
 On Linux/macOS (G++):
 
-```bash
+bash
 g++ -std=c++17 main.cpp -o main
 
 Or simply use:
 
-```bash
+bash
 make
 
 ---
@@ -55,7 +55,7 @@ make
 📦 Input Format (mbo.csv)
 Your input CSV (mbo.csv) should contain raw MBO data with the following columns:
 
-```arduino 
+arduino 
 ts_in_delta, ts_recv, ts_event, rtype, publisher_id, instrument_id, action,
 side, depth, price, size, flags, ...
 
@@ -95,7 +95,7 @@ As we can notice, The Official records are overlapping with the Generated record
 
 📋 Python Requirements (requirements.txt)
 
-```txt
+txt
 pandas>=1.5.0
 matplotlib>=3.5.0
 numpy>=1.21.0
@@ -104,14 +104,14 @@ jupyterlab>=3.0.0
 
 Install via:
 
-```bash
+bash
 pip install -r requirements.txt
 
 ---
 
 📊 Example Command
 
-```bash
+bash
 ./main.exe mbo.csv mbp_output.csv
 
 ---
@@ -120,7 +120,7 @@ pip install -r requirements.txt
 🧑‍💻 Author
 Developed by Bedagya Bordoloi.
 
-```yaml
+yaml
 For questions or feedback, feel free to open an issue or connect on GitHub.
 
 
