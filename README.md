@@ -120,6 +120,20 @@ The following graphs compare **official** vs **reconstructed** MBP data, showing
 - 📊 **Bid Size**
 - 📊 **Ask Size**
 
+### 🔍 Visualization Graphs
+
+#### 📉 Bid Price
+![Bid Price](MBO/graphs/bid_price.jpg)
+
+#### 📈 Ask Price
+![Ask Price](MBO/graphs/ask_price.jpg)
+
+#### 📊 Bid Size
+![Bid Size](MBO/graphs/bid_size.jpg)
+
+#### 📊 Ask Size
+![Ask Size](MBO/graphs/ask_size.jpg)
+
 ---
 
 ## 🐍 Python Requirements
